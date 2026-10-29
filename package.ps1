@@ -6,7 +6,7 @@ param(
 $ErrorActionPreference = 'Stop'
 $root = Split-Path -Parent $MyInvocation.MyCommand.Path
 $output = Join-Path $root 'dist'
-$packageName = 'JishsVirtualTV-SelectiveSync5-Install'
+$packageName = 'JishsVirtualTV-SelectiveSync5-ReSkate2.1.3-Install'
 $stage = Join-Path $output $packageName
 if (Test-Path -LiteralPath $stage) { throw "Stage already exists: $stage. Choose a fresh dist directory before packaging." }
 if (-not $SkipBuild) { & (Join-Path $root 'build.ps1') -Configuration $Configuration }

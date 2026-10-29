@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Win32-MSBuild"
+	tests="31"
+	failures="0"
+	disabled="0"
+	skipped="0"
+	hostname="Josh-PC"
+	time="10"
+	timestamp="2026-10-29T01:04:37"
+	>
+	<testcase name="tv_geometry_tests" classname="tv_geometry_tests" time="0.0255721" status="run">
+		<properties/>
+		<system-out></system-out>
+	</testcase>
+	<testcase name="tv_output_limit_tests" classname="tv_output_limit_tests" time="0.0236637" status="run">
+		<properties/>
+		<system-out></system-out>
+	</testcase>
+	<testcase name="tv_multi_output_tests" classname="tv_multi_output_tests" time="0.0229258" status="run">
+		<properties/>
+		<system-out></system-out>
+	</testcase>
+	<testcase name="tv_attachment_restore_tests" classname="tv_attachment_restore_tests" time="0.0241898" status="run">
+		<properties/>
+		<system-out></system-out>
+	</testcase>
+	<testcase name="tv_object_motion_tests" classname="tv_object_motion_tests" time="0.0244567" status="run">
+		<properties/>
+		<system-out></system-out>
+	</testcase>
+	<testcase name="tv_reshade_selection_tests" classname="tv_reshade_selection_tests" time="0.024399" status="run">
+		<properties/>
+		<system-out></system-out>
+	</testcase>
+	<testcase name="tv_runtime_tests" classname="tv_runtime_tests" time="0.0261077" status="run">
+		<properties/>
+		<system-out></system-out>
+	</testcase>
+	<testcase name="tv_gpu_tests" classname="tv_gpu_tests" time="3.85836" status="run">
+		<properties/>
+		<system-out>DX12 debug layer enabled
+Adapter: Microsoft Basic Render Driver
+Upload root-CBV: debug-layer capture disabled; fallback rejection passed
+Native proto3: depth-plane-only transitions, read-only DSV, render-pass preserve/discard, before-clear/unbind copies, cropped viewport, alias/split rejection, 48-frame refresh and backend switching passed
+Native prototype: actual draw/viewport/projection/transition hooks, depth-copy pixel readback, moved-camera/output/missing/partial projection rejection, repeated-recording fences and fallback passed
+WARP: world/front BGRA, scene-depth occlusion, normal/reversed Z, handedness, cropped depth, volatile capture fences/pool reuse, depth loss fallback, overlay/Present ordering, GPU completion, hide and resize passed
+</system-out>
+	</testcase>
+	<testcase name="tv_host_tests" classname="tv_host_tests" time="0.0329092" status="run">
+		<properties/>
+		<system-out>Real TV widgets drawn over four synthetic host frames; original menu chaining, ABI guards, context and allocator restoration passed
+</system-out>
+	</testcase>
+	<testcase name="tv_host_layout" classname="tv_host_layout" time="0.0294729" status="run">
+		<properties/>
+		<system-out>model=26128 debug=128 editor=24192 player=472 valid=458 gui=10576 io=3032
+</system-out>
+	</testcase>
+	<testcase name="tv_resolver_tests" classname="tv_resolver_tests" time="3.31806" status="run">
+		<properties/>
+		<system-out>Resolver routing, parsing, quoting, hidden process IPC, errors, timeout and cancellation passed
+</system-out>
+	</testcase>
+	<testcase name="tv_hook_transaction_tests" classname="tv_hook_transaction_tests" time="0.031104" status="run">
+		<properties/>
+		<system-out></system-out>
+	</testcase>
+	<testcase name="tv_native_placement_reader_tests" classname="tv_native_placement_reader_tests" time="0.0279577" status="run">
+		<properties/>
+		<system-out></system-out>
+	</testcase>
+	<testcase name="tv_native_identity_tests" classname="tv_native_identity_tests" time="0.0259693" status="run">
+		<properties/>
+		<system-out></system-out>
+	</testcase>
+	<testcase name="tv_restore_presentation_tests" classname="tv_restore_presentation_tests" time="0.0242396" status="run">
+		<properties/>
+		<system-out></system-out>
+	</testcase>
+	<testcase name="tv_audio_routing_tests" classname="tv_audio_routing_tests" time="0.0242314" status="run">
+		<properties/>
+		<system-out>Speaker-only, hidden-screen audio, fallback stereo: passed
+</system-out>
+	</testcase>
+	<testcase name="tv_audio_tests" classname="tv_audio_tests" time="0.0357121" status="run">
+		<properties/>
+		<system-out>Audio panning, distance fade, invalid inputs, settings migration passed
+</system-out>
+	</testcase>
+	<testcase name="tv_asset_preset_tests" classname="tv_asset_preset_tests" time="0.0250564" status="run">
+		<properties/>
+		<system-out>asset presets + sync statuses OK
+</system-out>
+	</testcase>
+	<testcase name="tv_sync_tests" classname="tv_sync_tests" time="0.0268441" status="run">
+		<properties/>
+		<system-out>sync protocol tests passed
+</system-out>
+	</testcase>
+	<testcase name="tv_sync_payload_tests" classname="tv_sync_payload_tests" time="0.0351607" status="run">
+		<properties/>
+		<system-out>sync payload tests passed
+</system-out>
+	</testcase>
+	<testcase name="tv_bridge_tests" classname="tv_bridge_tests" time="0.121741" status="run">
+		<properties/>
+		<system-out>Bridge partial lines, boot/reload, private payload, ack/retry, heartbeat expiry and truncation passed
+</system-out>
+	</testcase>
+	<testcase name="tv_selective_features_tests" classname="tv_selective_features_tests" time="0.0376679" status="run">
+		<properties/>
+		<system-out>Selection, session cleanup, new local IDs, preparation scope and compatibility passed
+</system-out>
+	</testcase>
+	<testcase name="tv_bridge_file_tests" classname="tv_bridge_file_tests" time="0.878171" status="run">
+		<properties/>
+		<system-out>File heartbeat, roster, retry, ack, timeout, epoch, torn writes and replay passed
+</system-out>
+	</testcase>
+	<testcase name="tv_logging_tests" classname="tv_logging_tests" time="0.0455131" status="run">
+		<properties/>
+		<system-out>Normal log filtering, repeat suppression and debug logging passed
+</system-out>
+	</testcase>
+	<testcase name="tv_performance_cleanup_tests" classname="tv_performance_cleanup_tests" time="0.0394221" status="run">
+		<properties/>
+		<system-out>Depth grace/reset/retry and immutable zero-copy frames, wakeup and release passed
+</system-out>
+	</testcase>
+	<testcase name="tv_full_setup_tests" classname="tv_full_setup_tests" time="0.0354687" status="run">
+		<properties/>
+		<system-out>Full setup: unique pose binding, native movement, deletion/recreation, nonuniform scale, authority model, delta, speaker-only, limits, atomic chunks, timeout/conflict/CRC passed
+</system-out>
+	</testcase>
+	<testcase name="tv_full_setup_runtime_tests" classname="tv_full_setup_runtime_tests" time="0.0985368" status="run">
+		<properties/>
+		<system-out>Full setup runtime: capability/session, rejected senders/rooms, late native spawn, live alignment/range, local volume, atomic replacement, stale packets, controller switching and cleanup passed
+</system-out>
+	</testcase>
+	<testcase name="tv_full_setup_transport_tests" classname="tv_full_setup_transport_tests" time="0.611422" status="run">
+		<properties/>
+		<system-out>Transport: 1500-byte packets, strict rolling 8KiB/s including retries, control/setup/catalog priority, in-flight ACK stability and reserved control capacity passed
+</system-out>
+	</testcase>
+	<testcase name="tv_borrowed_attachment_tests" classname="tv_borrowed_attachment_tests" time="0.0362977" status="run">
+		<properties/>
+		<system-out>Native borrowed presentation: commands rejected, personal manifest preserved, pending outputs hidden, naming metadata never attaches, cleanup passed
+</system-out>
+	</testcase>
+	<testcase name="tv_sync_timeline_tests" classname="tv_sync_timeline_tests" time="0.0346192" status="run">
+		<properties/>
+		<system-out>Viewer-only timeline: late join, future target, latency, slow seek, paused host/resume, buffering, stale/reordered anchors, retry bounds, seek discontinuity and independent viewers passed
+</system-out>
+	</testcase>
+	<testcase name="tv_camera_frame_tests" classname="tv_camera_frame_tests" time="0.0321456" status="run">
+		<properties/>
+		<system-out>Camera frames: pose/viewport/age/FOV validation, 30/60/144Hz presentation, immutable depth reprojection and fixed object geometry passed
+</system-out>
+	</testcase>
+</testsuite>

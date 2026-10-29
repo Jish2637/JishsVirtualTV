@@ -1,0 +1,165 @@
+{
+  "passed": true,
+  "runtime_sha256": "139e932ad6328b898b2ff8c2aac3e0cd5ced6545c2f041aa8534239f97e59f9b",
+  "host_contracts": [
+    {
+      "name": "status",
+      "rva": "0xf8be60",
+      "prefix": "4885c90f849c000000574883ec30488b"
+    },
+    {
+      "name": "mods",
+      "rva": "0x104e6a0",
+      "prefix": "48895c241889542410574883ec50488b"
+    },
+    {
+      "name": "render",
+      "rva": "0xff5870",
+      "prefix": "488bc448895810488970184889782055"
+    },
+    {
+      "name": "context_getter",
+      "rva": "0x1279dc0",
+      "prefix": "488b051135b100c3cccccccccccccccc"
+    },
+    {
+      "name": "mutex_lock",
+      "rva": "0x148a6f4",
+      "prefix": "33d2e949000000cc4883ec38488d5424"
+    },
+    {
+      "name": "mutex_unlock",
+      "rva": "0x148a720",
+      "prefix": "4883ec2883694c017511c74148ffffff"
+    }
+  ],
+  "status_calls": [
+    "0xf8b710",
+    "0x148a6f4",
+    "0x148a720"
+  ],
+  "state": "0x1cf3ca0",
+  "game_contracts": [
+    {
+      "file": "native_contracts.h",
+      "rva": "0x25d5430",
+      "bytes": 32
+    },
+    {
+      "file": "native_contracts.h",
+      "rva": "0x25d7e00",
+      "bytes": 32
+    },
+    {
+      "file": "native_contracts.h",
+      "rva": "0x3d09a20",
+      "bytes": 32
+    },
+    {
+      "file": "native_contracts.h",
+      "rva": "0x470a20",
+      "bytes": 32
+    },
+    {
+      "file": "native_contracts.h",
+      "rva": "0x471030",
+      "bytes": 32
+    },
+    {
+      "file": "native_contracts.h",
+      "rva": "0x46aa70",
+      "bytes": 32
+    },
+    {
+      "file": "native_contracts.h",
+      "rva": "0x3d2e920",
+      "bytes": 32
+    },
+    {
+      "file": "native_contracts.h",
+      "rva": "0x26afdc0",
+      "bytes": 32
+    },
+    {
+      "file": "native_contracts.h",
+      "rva": "0x2640f50",
+      "bytes": 32
+    },
+    {
+      "file": "native_contracts.h",
+      "rva": "0x25fa1d0",
+      "bytes": 32
+    },
+    {
+      "file": "native_contracts.h",
+      "rva": "0x6fdb00",
+      "bytes": 32
+    },
+    {
+      "file": "native_contracts.h",
+      "rva": "0x710e10",
+      "bytes": 32
+    },
+    {
+      "file": "native_contracts.h",
+      "rva": "0x276f3e0",
+      "bytes": 32
+    },
+    {
+      "file": "native_contracts.h",
+      "rva": "0x287ac10",
+      "bytes": 32
+    },
+    {
+      "file": "native_contracts.h",
+      "rva": "0x18b6ae0",
+      "bytes": 32
+    },
+    {
+      "file": "native_probe.cpp",
+      "rva": "0x25d5430",
+      "bytes": 16
+    },
+    {
+      "file": "native_probe.cpp",
+      "rva": "0x25d7e00",
+      "bytes": 16
+    },
+    {
+      "file": "native_probe.cpp",
+      "rva": "0x46aa70",
+      "bytes": 16
+    },
+    {
+      "file": "native_probe.cpp",
+      "rva": "0x6fd220",
+      "bytes": 16
+    },
+    {
+      "file": "native_probe.cpp",
+      "rva": "0x25dcbf0",
+      "bytes": 16
+    },
+    {
+      "file": "native_probe.cpp",
+      "rva": "0x287c980",
+      "bytes": 16
+    }
+  ],
+  "game_addresses_checked_against_tag": [
+    "0x46aa70",
+    "0x6fdb00",
+    "0x710e10",
+    "0x1000000",
+    "0x18b6e40",
+    "0x276f3e0",
+    "0x287ac10",
+    "0x3d2e920",
+    "0x6255870",
+    "0x63ece68",
+    "0x63ed0a0",
+    "0x63fc220",
+    "0x7215038",
+    "0x75cbc48"
+  ]
+}

@@ -16,3 +16,7 @@ v0.7.0 includes exact official v2.1.1 model headers in vendor/reskate211 for the
 The dinput8.dll loader is redistributed unmodified from Jish2637/JishsFirstPersonMod 1.36.7-reskate-2.1.3. Corresponding loader source, upstream provenance, build instructions and license are in vendor/multi-mod-loader. The upstream version names the First Person release; this TV build remains pinned to ReSkate 2.1.2.
 
 Resolver licenses are in resolver/ in source and Scripts/Custom/resolver/ in the install package. Streamline header notices are retained in vendor/streamline211.
+
+Active host/model compatibility updated to official ReSkate v2.1.3 (9506a39). Older version references above describe source provenance. See docs/MIGRATION-2.1.3.md.
+
+Active host/model compatibility updated to official ReSkate v2.1.3 (9506a39). Older version references above describe source provenance. See docs/MIGRATION-2.1.3.md.
