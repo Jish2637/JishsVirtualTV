@@ -1,0 +1,8 @@
+cmake_minimum_required(VERSION 3.21)
+project(JishMultiModLoader LANGUAGES CXX)
+add_library(jish_proxy SHARED src/proxy_loader.cpp src/proxy_loader.def vendor/Engine/Game/Build/image_identity.cpp)
+target_compile_features(jish_proxy PRIVATE cxx_std_20)
+target_include_directories(jish_proxy PRIVATE vendor)
+target_compile_definitions(jish_proxy PRIVATE WIN32_LEAN_AND_MEAN NOMINMAX UNICODE _UNICODE)
+target_link_libraries(jish_proxy PRIVATE bcrypt)
+set_target_properties(jish_proxy PROPERTIES PREFIX "" OUTPUT_NAME "dinput8")

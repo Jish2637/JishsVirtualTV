@@ -1,0 +1,7 @@
+{
+  "name": "JishsVirtualTVBridge",
+  "version_number": "0.6.0",
+  "website_url": "",
+  "description": "JishsVirtualTV full-setup sync relay and native menu launcher; requires matching SelectiveSync5 DLL.",
+  "dependencies": []
+}

@@ -1,0 +1,8 @@
+build/
+build-*/
+dist/
+*.user
+*.pdb
+*.log
+__pycache__/
+resolver/*.exe
