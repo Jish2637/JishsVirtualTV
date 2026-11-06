@@ -1,0 +1,7 @@
+cmake_minimum_required(VERSION 3.25)
+project(Layout2142 LANGUAGES CXX)
+set(CMAKE_CXX_STANDARD 20)
+set(CMAKE_MSVC_RUNTIME_LIBRARY MultiThreaded)
+add_executable(layout2142 layout.cpp)
+target_compile_definitions(layout2142 PRIVATE WIN32_LEAN_AND_MEAN NOMINMAX _ITERATOR_DEBUG_LEVEL=0)
+target_include_directories(layout2142 PRIVATE "${UPSTREAM}" "${UPSTREAM}/External/imgui")
