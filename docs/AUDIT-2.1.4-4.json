@@ -1,0 +1,245 @@
+{
+  "passed": true,
+  "runtime_sha256": "1bcd400b6c487f497ab0110263444864c0269a6309f7143d22b5bc04863d544e",
+  "host_contracts": [
+    {
+      "name": "status",
+      "rva": "0xfed180",
+      "prefix": "4885c90f849c000000574883ec30488b"
+    },
+    {
+      "name": "render",
+      "rva": "0x106bb10",
+      "prefix": "488bc448895810488970184889782055"
+    },
+    {
+      "name": "context_getter",
+      "rva": "0x1305d20",
+      "prefix": "488b0561fbbf00c3cccccccccccccccc"
+    },
+    {
+      "name": "mutex_lock",
+      "rva": "0x1517e44",
+      "prefix": "33d2e949000000cc4883ec38488d5424"
+    },
+    {
+      "name": "mutex_unlock",
+      "rva": "0x1517e70",
+      "prefix": "4883ec2883694c017511c74148ffffff"
+    }
+  ],
+  "status_calls": [
+    "0xfeca30",
+    "0x1517e44",
+    "0x1517e70"
+  ],
+  "state": "0x1e6bf80",
+  "game_contracts": [
+    {
+      "file": "native_contracts.h",
+      "rva": "0x25d5430",
+      "bytes": 32
+    },
+    {
+      "file": "native_contracts.h",
+      "rva": "0x25d7e00",
+      "bytes": 32
+    },
+    {
+      "file": "native_contracts.h",
+      "rva": "0x3d09a20",
+      "bytes": 32
+    },
+    {
+      "file": "native_contracts.h",
+      "rva": "0x470a20",
+      "bytes": 32
+    },
+    {
+      "file": "native_contracts.h",
+      "rva": "0x471030",
+      "bytes": 32
+    },
+    {
+      "file": "native_contracts.h",
+      "rva": "0x46aa70",
+      "bytes": 32
+    },
+    {
+      "file": "native_contracts.h",
+      "rva": "0x3d2e920",
+      "bytes": 32
+    },
+    {
+      "file": "native_contracts.h",
+      "rva": "0x26afdc0",
+      "bytes": 32
+    },
+    {
+      "file": "native_contracts.h",
+      "rva": "0x2640f50",
+      "bytes": 32
+    },
+    {
+      "file": "native_contracts.h",
+      "rva": "0x25fa1d0",
+      "bytes": 32
+    },
+    {
+      "file": "native_contracts.h",
+      "rva": "0x6fdb00",
+      "bytes": 32
+    },
+    {
+      "file": "native_contracts.h",
+      "rva": "0x710e10",
+      "bytes": 32
+    },
+    {
+      "file": "native_contracts.h",
+      "rva": "0x276f3e0",
+      "bytes": 32
+    },
+    {
+      "file": "native_contracts.h",
+      "rva": "0x287ac10",
+      "bytes": 32
+    },
+    {
+      "file": "native_contracts.h",
+      "rva": "0x18b6ae0",
+      "bytes": 32
+    },
+    {
+      "file": "native_probe.cpp",
+      "rva": "0x25d5430",
+      "bytes": 16
+    },
+    {
+      "file": "native_probe.cpp",
+      "rva": "0x25d7e00",
+      "bytes": 16
+    },
+    {
+      "file": "native_probe.cpp",
+      "rva": "0x46aa70",
+      "bytes": 16
+    },
+    {
+      "file": "native_probe.cpp",
+      "rva": "0x6fd220",
+      "bytes": 16
+    },
+    {
+      "file": "native_probe.cpp",
+      "rva": "0x25dcbf0",
+      "bytes": 16
+    },
+    {
+      "file": "native_probe.cpp",
+      "rva": "0x287c980",
+      "bytes": 16
+    },
+    {
+      "file": "native_attachment.cpp",
+      "rva": "0x18b6e40",
+      "bytes": 16
+    }
+  ],
+  "game_addresses_checked_against_tag": [
+    "0x46aa70",
+    "0x6fdb00",
+    "0x710e10",
+    "0x1000000",
+    "0x18b6e40",
+    "0x276f3e0",
+    "0x287ac10",
+    "0x3d2e920",
+    "0x6255870",
+    "0x63ece68",
+    "0x63ed0a0",
+    "0x63fc220",
+    "0x7215038",
+    "0x75cbc48"
+  ],
+  "tagged_headers_verified": [
+    "Engine/Core/Console/console_entry.h",
+    "Engine/Core/Log/types.h",
+    "Engine/Game/Input/controller_bindings.h",
+    "Engine/Game/Multiplayer/distance_settings.h",
+    "Engine/Game/Multiplayer/object_placement.h",
+    "Engine/Game/Multiplayer/role_commands.h",
+    "Engine/Game/Multiplayer/session_limits.h",
+    "Engine/Game/Multiplayer/session_model.h",
+    "Engine/Game/Multiplayer/tick_settings.h",
+    "Engine/Game/Multiplayer/voice_settings.h",
+    "Engine/Game/Profile/object_persistence_model.h",
+    "Engine/Game/Profile/player_card.h",
+    "Engine/Game/Profile/progression.h",
+    "Engine/Game/Rendering/graphics_controls.h",
+    "Engine/Game/Settings/named_settings.h",
+    "Engine/Game/Skater/first_person_spring.h",
+    "Engine/Game/UI/menu_scale.h",
+    "Engine/Game/World/atmosphere_controls.h",
+    "Engine/Game/World/bus_stop_world.h",
+    "Engine/Game/World/park_editor.h",
+    "Engine/Game/World/park_rotation.h",
+    "Engine/Game/World/world_controls.h",
+    "Engine/Game/World/world_layer_catalog.h",
+    "Engine/Game/World/world_layer_types.h",
+    "Engine/Game/World/world_layers.h",
+    "Extension/UI/Overlay/overlay.h"
+  ],
+  "host_fields": {
+    "visible": 644,
+    "ready": 833,
+    "failed": 840,
+    "swapchain": 1288,
+    "queue": 1296,
+    "context": 2752,
+    "model": 2808,
+    "menu": 29064
+  },
+  "tag_commit": "be6f26237f621d1f49e05720b3a2234461444b35",
+  "allocator_global_references": {
+    "alloc": [
+      "0x130abb6"
+    ],
+    "free": [
+      "0x12faeb2",
+      "0x12fb14c",
+      "0x12fb1d2",
+      "0x12fb8a7",
+      "0x1301670",
+      "0x13072da",
+      "0x130ace0",
+      "0x131079b"
+    ],
+    "allocator_data": [
+      "0x12faea8",
+      "0x12fb142",
+      "0x12fb1c8",
+      "0x12fb89d",
+      "0x1301666",
+      "0x13072d0",
+      "0x130abc0",
+      "0x130acd5",
+      "0x1310791"
+    ]
+  },
+  "render_function_size": 5331,
+  "compiled_layout": {
+    "render_mutex": 0,
+    "visible": 644,
+    "ready": 833,
+    "failed": 840,
+    "swapchain": 1288,
+    "queue": 1296,
+    "context": 2752,
+    "model": 2808,
+    "menu": 29064,
+    "Model": 26248,
+    "editor": 24192,
+    "debug": 128
+  }
+}
