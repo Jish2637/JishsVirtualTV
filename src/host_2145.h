@@ -1,0 +1,29 @@
+#pragma once
+#include <cstdint>
+namespace virtualtv::host2145 {
+inline constexpr char sha256[]="0820fa71c1cb716f4222eb9027130933aa9e3db4ce20b46ef555760be997dbde";
+inline constexpr std::uintptr_t state=0x1e6bf80;
+inline constexpr std::uintptr_t status=0xfed180;
+inline constexpr std::uintptr_t render=0x106bb10;
+inline constexpr std::uintptr_t context_getter=0x1305d20;
+inline constexpr std::uintptr_t gui_context=0x1f05888; // Verified ImGui global; embedded-menu test only
+inline constexpr std::uintptr_t alloc=0x1c0f240; // Verified allocator global; embedded-menu test only
+inline constexpr std::uintptr_t free=0x1c0f248; // Verified allocator global; embedded-menu test only
+inline constexpr std::uintptr_t allocator_data=0x1f05890; // Verified allocator global; embedded-menu test only
+inline constexpr std::uintptr_t mutex_lock=0x1517e44;
+inline constexpr std::uintptr_t mutex_unlock=0x1517e70;
+inline constexpr std::uintptr_t visible=0x284;
+inline constexpr std::uintptr_t ready=0x341;
+inline constexpr std::uintptr_t failed=0x348;
+inline constexpr std::uintptr_t swapchain=0x508;
+inline constexpr std::uintptr_t queue=0x510;
+inline constexpr std::uintptr_t context=0xac0;
+inline constexpr std::uintptr_t model=0xaf8;
+inline constexpr std::uintptr_t menu=0x7188;
+inline constexpr std::uintptr_t image_size=0x2be8000;
+inline constexpr unsigned char status_bytes[]{0x48,0x85,0xc9,0x0f,0x84,0x9c,0x00,0x00,0x00,0x57,0x48,0x83,0xec,0x30,0x48,0x8b};
+inline constexpr unsigned char render_bytes[]{0x48,0x8b,0xc4,0x48,0x89,0x58,0x10,0x48,0x89,0x70,0x18,0x48,0x89,0x78,0x20,0x55};
+inline constexpr unsigned char context_getter_bytes[]{0x48,0x8b,0x05,0x61,0xfb,0xbf,0x00,0xc3,0xcc,0xcc,0xcc,0xcc,0xcc,0xcc,0xcc,0xcc};
+inline constexpr unsigned char mutex_lock_bytes[]{0x33,0xd2,0xe9,0x49,0x00,0x00,0x00,0xcc,0x48,0x83,0xec,0x38,0x48,0x8d,0x54,0x24};
+inline constexpr unsigned char mutex_unlock_bytes[]{0x48,0x83,0xec,0x28,0x83,0x69,0x4c,0x01,0x75,0x11,0xc7,0x41,0x48,0xff,0xff,0xff};
+}
